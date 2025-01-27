@@ -53,9 +53,9 @@
 <body>
   <!-- Card Deck -->
   <div id="deckContainer">
-    <img class="card" id="card1" src="https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6776cb0cce41a62a087eeb70.jpeg" alt="Card Back" style="z-index: 3;">
-    <img class="card" id="card2" src="https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6776cb0cce41a62a087eeb70.jpeg" alt="Card Back" style="z-index: 2;">
-    <img class="card" id="card3" src="https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6776cb0cce41a62a087eeb70.jpeg" alt="Card Back" style="z-index: 1;">
+    <img class="card" id="card1" src="https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e307196ab85a6a867c.jpeg" alt="Card Back" style="z-index: 3;">
+    <img class="card" id="card2" src="https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e307196ab85a6a867c.jpeg" alt="Card Back" style="z-index: 2;">
+    <img class="card" id="card3" src="https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e307196ab85a6a867c.jpeg" alt="Card Back" style="z-index: 1;">
   </div>
 
   <!-- Affirmation Display -->
@@ -66,81 +66,81 @@
   <script>
     // Affirmations with corresponding images
     const affirmations = [
-      { text: "04", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deb0a11f998bbe8f6d.jpeg" },
-      { text: "05", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deed46eb8558fb6b29.jpeg" },
-      { text: "06", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deed46eb8001fb6b27.jpeg" },
-      { text: "07", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deb0a11f603dbe8f6f.jpeg" },
-      { text: "08", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de37a11daed3fb90c6.jpeg" },
-      { text: "09", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731dee00427a2ac19687b.jpeg" },
-      { text: "10", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deb0a11f25c1be8f70.jpeg" },
-      { text: "11", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de6e3c74a880172d80.jpeg" },
-      { text: "12", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de6e3c746f0f172d83.jpeg" },
-      { text: "13", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded4ebc4329bc58030.jpeg" },
-      { text: "14", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deb0a11f50f9be8f72.jpeg" },
-      { text: "15", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de6e3c74b282172d82.jpeg" },
-      { text: "16", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731dee00427aedf19687a.jpeg" },
-      { text: "17", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded64d3df790870bc5.jpeg" },
-      { text: "18", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded1a7b4ba570f63dd.jpeg" },
-      { text: "19", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded4ebc462f0c5802f.jpeg" },
-      { text: "20", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de6e3c7468e1172d81.jpeg" },
-      { text: "21", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deed46eb78aafb6b2b.jpeg" },
-      { text: "22", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de37a11d7fb0fb90c9.jpeg" },
-      { text: "23", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de10dd0d12398dfdc4.jpeg" },
-      { text: "24", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deb0a11f19fcbe8f73.jpeg" },
-      { text: "25", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de10dd0d22838dfdc3.jpeg" },
-      { text: "26", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded1a7b468c20f63dc.jpeg" },
-      { text: "27", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de37a11d7fb0fb90c9.jpeg" },
-      { text: "28", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deed46eb4f32fb6b2c.jpeg" },
-      { text: "29", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deed46eb67b9fb6b2a.jpeg" },
-      { text: "30", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731dece41a6de087f6a57.jpeg" },
-      { text: "31", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deb0a11f8e3dbe8f71.jpeg" },
-      { text: "32", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731dece41a6ed1f7f6a58.jpeg" },
-      { text: "33", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de6e3c746b31172d84.jpeg" },
-      { text: "34", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de10dd0d32cd8dfdc5.jpeg" },
-      { text: "35", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded64d3d92a0870bbd.jpeg" },
-      { text: "36", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded64d3d18e4870bbe.jpeg" },
-      { text: "37", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deed46eb2a03fb6b24.jpeg" },
-      { text: "38", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded1a7b418060f63d8.jpeg" },
-      { text: "39", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deed46eb8525fb6b25.jpeg" },
-      { text: "40", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded64d3d23a7870bc1.jpeg" },
-      { text: "41", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded64d3dcd93870bc0.jpeg" },
-      { text: "42", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deed46eb7599fb6b26.jpeg" },
-      { text: "43", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de37a11d3335fb90c3.jpeg" },
-      { text: "44", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de37a11d188cfb90c4.jpeg" },
-      { text: "45", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de6e3c745713172d7e.jpeg" },
-      { text: "46", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deb0a11f569abe8f6e.jpeg" },
-      { text: "47", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de6e3c740e0f172d7c.jpeg" },
-      { text: "48", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded4ebc42063c58029.jpeg" },
-      { text: "49", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731dee00427f79b196877.jpeg" },
-      { text: "50", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded4ebc46c63c5802b.jpeg" },
-      { text: "51", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de37a11d7f51fb90c5.jpeg" },
-      { text: "52", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded64d3d6b39870bc2.jpeg" },
-      { text: "53", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded4ebc4021cc5802a.jpeg" },
-      { text: "54", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deed46eb7d8afb6b28.jpeg" },
-      { text: "55", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded64d3d7837870bc3.jpeg" },
-      { text: "56", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded4ebc4cca9c5802c.jpeg" },
-      { text: "57", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de6e3c7426b7172d7f.jpeg" },
-      { text: "58", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de10dd0d056b8dfdc2.jpeg" },
-      { text: "59", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded1a7b43c450f63d9.jpeg" },
-      { text: "60", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de37a11d7613fb90c8.jpeg" },
-      { text: "61", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731dee004279787196878.jpeg" },
-      { text: "62", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded1a7b471fc0f63db.jpeg" },
-      { text: "63", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de37a11d367afb90c7.jpeg" },
-      { text: "64", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731dece41a643f77f6a56.jpeg" },
-      { text: "65", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded1a7b40a260f63da.jpeg" },
-      { text: "66", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded64d3d2e11870bc4.jpeg" },
-      { text: "67", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731dee004273e12196879.jpeg" },
-      { text: "68", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731dece41a6ed797f6a55.jpeg" },
-      { text: "69", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731ded4ebc418adc5802e.jpeg" },
-      { text: "70", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deed46eb2762fb6b2d.jpeg" },
-      { text: "71", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731dece41a6a6937f6a54.jpeg" },
-      { text: "72", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deed46eb8715fb6b23.jpeg" },
-      { text: "73", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731deed46eb8715fb6b23.jpeg" },
-      { text: "74", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de37a11d2cd5fb90c2.jpeg" },
-      { text: "75", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/677731de6e3c744f68172d7d.jpeg" },
+      { text: "I’m not just worthy—I’m a walking, talking, magnetic force of greatness.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e36e51d2e9aa51edc1.jpeg" },//04
+      { text: "I trust myself like the moon trusts its cycles—perfectly timed and always radiant", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3d039a119e64ffe10.jpeg" },//05
+      { text: "I’m as certain in my brilliance as the sun rising—consistent, bold, and unapologetic.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3944e55ef08c12ae1.jpeg" },//06
+      { text: "I back myself harder than a hype squad at a sold-out concert. Legendary.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3d039a149954ffe0d.jpeg" },//07
+      { text: "I’m bold, brilliant, and unbothered by anything less than my best life.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3944e5543d4c12ae6.jpeg" },//08
+      { text: "I love and celebrate every single part of me—no disclaimers needed.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3e0ed88dacf9e20ee.jpeg" },//09
+      { text: "Every decision I make is a mic-drop moment for my highest good.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e338cbe7457c4e477c.jpeg" },//10
+      { text: "Money loves me, and let’s be real—I love it right back.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3687e35e9291752a0.jpeg" },//11
+      { text: "The universe has my back, and I’m ready to cash in on that support.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3e0ed886c9a9e20f0.jpeg" },//12
+      { text: "I attract opportunities like a magnet on a mission.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e307196a27c46a867d.jpeg" },//13
+      { text: "My bank account grows faster than my plant collection (and I’m thriving in both).", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3944e55265ac12ae2.jpeg" },//14
+      { text: "Manifesting is my superpower, and I use it wisely…most of the time.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e334c6922d3d6df38f.jpeg" },//15
+      { text: "I’m grateful for the abundance pouring into my life—it’s basically a waterfall.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e36ebbcfe6c3250587.jpeg" },//16
+      { text: "I align my energy like a boss aligning their empire", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3e0ed887a519e20f2.jpeg" },//17
+      { text: "I radiate so much positivity that I’m practically a walking glow stick.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3fa9fbfa89024f8f5.jpeg" },//18
+      { text: "My thoughts, feelings, and actions are a power trio no one can mess with.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e36ebbcf145f250585.jpeg" },//19
+      { text: "Divine timing is my jam, and I trust the beats of my life.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e35752d86fcb3929e7.jpeg" },//20
+      { text: "My energy is magnetic, and my dreams can’t resist me.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e335a94d326a964824.jpeg" },//21
+      { text: "Every day, I step into my power like it’s a runway and I’m the star.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3c0f2c0713c4d219c.jpeg" },//22
+      { text: "Fear who? I’m too busy embracing my inner badass.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e307ecd61abb2409aa.jpeg" },//23
+      { text: "Old stories are sooo yesterday. Today, I’m writing a bestseller.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3c0f2c02a9e4d219a.jpeg" },//24
+      { text: "I’m not just releasing blocks—I’m smashing them to cosmic dust.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e338cbe75ca14e477f.jpeg" },25
+      { text: "My past may have shaped me, but my future is my masterpiece.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3e0ed88fc0a9e20ef.jpeg" },//26
+      { text: "I trust myself to turn every challenge into my next plot twist.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e338cbe7ebb34e477e.jpeg" },//27
+      { text: "Self-doubt, meet self-belief. It’s a total glow-up.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e334c6927e2f6df390.jpeg" },//28
+      { text: "I’m grateful for the good, the great, and the lessons that made me legendary.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e307ecd6f6212409ab.jpeg" },//29
+      { text: "The universe delivers like my favorite takeout—always right on time.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e34c95d495ae74e4a9.jpeg" },//30
+      { text: "Abundance isn’t just something I attract—it’s who I am.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3c0f2c0c37e4d219e.jpeg" },//31
+      { text: "Gratitude raises my vibe higher than any fancy latte ever could", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3965455d21f408bb3.jpeg" },//32
+      { text: "Joy is my GPS, and it never steers me wrong.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3944e5597ecc12ae5.jpeg" },//33
+      { text: "I trust the twists and turns of my journey—plot twists included.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e34f0aeb9ac35d818d.jpeg" },//34
+      { text: "I sprinkle creativity like glitter—everywhere and unapologetically.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3944e550c79c12ae3.jpeg" },//35
+      { text: "My inner light shines so bright, it’s practically a disco ball.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3fa9fbf023b24f8f7.jpeg" },//36
+      { text: "My creativity flows like champagne at a celebration—limitless and bubbly.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3c21e374db3bc46de.jpeg" },//37
+      { text: "Playfulness isn’t just a mood—it’s my secret sauce for greatness.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3fa9fbfc89224f8f4.jpeg" },//38
+      { text: "I’m the CEO of my own glow-up—profitable, unstoppable, and thriving.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e335a94d596c964823.jpeg" },//39
+      { text: "I shine brighter than disco balls at midnight—effortlessly dazzling.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e364e3ccf2d8f2a641.jpeg" },//40
+      { text: "I’m the main character, and my storylines are always iconic.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3c0f2c06b2d4d219b.jpeg" },//41
+      { text: "Confidence is my superpower, and I’m not afraid to use it.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e36e51d2242b51edc2.jpeg" },//42
+      { text: "I claim my space like I pay rent in the stars—because I do.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e34c95d4af5474e4a8.jpeg" },//43
+      { text: "I’m as magnetic as my dream life, and we’re already besties.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e36ebbcf479a250586.jpeg" },//44
+      { text: "I walk into every room like it was built just for me.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e35752d8025c3929e8.jpeg" },//45
+      { text: "Money doesn’t just flow to me—it dances its way into my life.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e396545543b0408bb4.jpeg" },//46
+      { text: "I attract abundance like bees attract honey—sweet, golden, and nonstop.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3687e3574771752a1.jpeg" },//47
+      { text: "Manifestation is my love language, and the universe never ghosts me.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3d039a14c2b4ffe0f.jpeg" },//48
+      { text: "I count blessings and deposits—and both keep adding up.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e36ebbcf6df2250589.jpeg" },//49
+      { text: "Opportunities stick to me like glitter—sparkly and impossible to ignore.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e335a94de894964826.jpeg" },//50
+      { text: "I don’t chase abundance; I attract it with my energy—and a wink.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e39654558075408bb5.jpeg" },//51
+      { text: "Every dollar I spend boomerangs back to me with friends.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3c0f2c07c184d219d.jpeg" },//52
+      { text: "I vibe higher than a rocket launch—and my dreams are the fuel.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3fa9fbf228c24f8f9.jpeg" },//53
+      { text: "I balance my energy like a goddess balancing crowns—graceful and fierce.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3fa9fbf23d824f8f6.jpeg" },//54
+      { text: "The universe and I are on the same frequency—loud and clear.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e335a94dd45d964825.jpeg" },//55
+      { text: "I’m aligned, divine, and right on time.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e307196a118f6a867f.jpeg" },//56
+      { text: "I protect my peace like it’s designer—no knockoffs allowed.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3e0ed88be619e20f4.jpeg" },//57
+      { text: "My energy sets the tone, and today’s playlist is straight fire.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e307ecd621622409ac.jpeg" },//58
+      { text: "I move with purpose, and the universe clears the path.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e396545562c0408bb6.jpeg" },//59
+      { text: "I let go of limits like bad habits—they’re so last season.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e338cbe773124e4780.jpeg" },//60
+      { text: "Doubt has no seat at my table—it’s standing room only for believers.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e36a58c45d16218210.jpeg" },//61
+      { text: "I flip fears into fuel and setbacks into comebacks.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e34c95d4810c74e4aa.jpeg" },//62
+      { text: "I left my comfort zone and took the GPS with me—no turning back.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e307196a69e06a8680.jpeg" },//63
+      { text: "Resistance is just proof I’m leveling up—and I’m here for it.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3687e355b101752a2.jpeg" },//64
+      { text: "My dreams aren’t too big—they’re just the right size for me.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3c0f2c022a24d219f.jpeg" },//65
+      { text: "I rewrite the rules and star in my own legend.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e36a58c43f3f21820f.jpeg" },//66
+      { text: "I trust the timing of my life—it’s divine and perfectly scripted.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e307196aeea66a867e.jpeg" },//67
+      { text: "The universe spoils me, and I’m loving every second of it.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3944e553bafc12ae4.jpeg" },//68
+      { text: "Gratitude multiplies my blessings faster than compound interest.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3d039a11ae24ffe11.jpeg" },//69
+      { text: "I celebrate every win—big, small, and pre-coffee.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3687e353ed11752a3.jpeg" },//70
+      { text: "The universe always has my back—and front-row tickets to my success.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3e0ed8837c39e20f1.jpeg" },//71
+      { text: "I let joy guide me, and it never takes a wrong turn.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e34f0aeb1f265d818e.jpeg" },//72
+      { text: "I trust the process—even the messy, magical parts", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e36ebbcf28d225058a.jpeg" }, //73
+      { text: "I create magic out of thin air—and it looks good on me", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e34f0aeb5b415d818f.jpeg" }, //74
+      { text: "I’m a masterpiece in progress—and I’m loving every brushstroke.", image: "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e3fa9fbf001824f8f8.jpeg" },// 75
     ];
 
-    const cardBackImage = "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6776cb0cce41a62a087eeb70.jpeg"; // Card back image
+    const cardBackImage = "https://storage.googleapis.com/msgsndr/a8CSYCDLm5yulVfnNvhS/media/6797b8e307196ab85a6a867c.jpeg"; // Card back image
     let currentCardIndex = 0;
     let isShuffling = false;
 
